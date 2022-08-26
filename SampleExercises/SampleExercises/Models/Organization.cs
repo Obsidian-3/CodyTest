@@ -1,4 +1,4 @@
-﻿namespace SimpleDataManagement.Model
+﻿namespace SimpleDataManagement.Models
 {
     public class Organization
     {
@@ -7,7 +7,7 @@
         public int YearStarted { get; set; }
         public string EntityId { get; set; }
 
-        IList<Association> _entities;
+        IList<Association>? _entities;
         public IList<Association> Associations
         {
             get

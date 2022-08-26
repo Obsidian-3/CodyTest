@@ -1,4 +1,4 @@
-﻿namespace SimpleDataManagement.Model
+﻿namespace SimpleDataManagement.Models
 {
     public class Association
     {
