@@ -8,7 +8,9 @@ var addressesFilePath = Path.Combine(dataSourcesDirectory, "Addresses_20220824_0
 foreach (var path in new[] { personsFilePath, organizationsFilePath, vehiclesFilePath, addressesFilePath })
 {
     if (!File.Exists(path))
-        throw new Exception();
+        throw new FileNotFoundException(path);
 }
+
+//TODO: Start your exercise here.
 
 Console.WriteLine("Hello World! Welcome to Data!");
