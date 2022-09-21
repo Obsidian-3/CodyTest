@@ -30,9 +30,13 @@ throw new NotImplementedException("Complete Test #3");
 throw new NotImplementedException("Complete Test #4");
 
 //Test #5: Provide the vehicle detail that is associated to the address "4976 Penelope Via South Franztown, NH 71024"?
+//         StreetAddress: "4976 Penelope Via"
+//         City: "South Franztown"
+//         State: "NH"
+//         ZipCode: "71024"
 throw new NotImplementedException("Complete Test #5");
 
-//Test #6: What person(s) are associated to the organization "Thiel and Sons"?
+//Test #6: What person(s) are associated to the organization "thiel and sons"?
 throw new NotImplementedException("Complete Test #6");
 
 //Test #7: How many people have the same first and middle name?
